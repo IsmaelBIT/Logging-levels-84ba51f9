@@ -3,7 +3,7 @@ class MyLogger
 {
     public function log($message, $type) {
         switch ($type) {
-            case 'INFO' :
+            case 'INFO':
                 echo 'INFO: ' . $message . "\n";
                 break;
         }
