@@ -1,7 +1,8 @@
 <?php
 class MyLogger
 {
-    public function log($message, $type) {
+    public function log($message, $type)
+    {
         switch ($type) {
             case 'INFO':
                 echo 'INFO: ' . $message . "\n";
@@ -9,7 +10,8 @@ class MyLogger
         }
     }
 
-    public function error($message) {
+    public function error($message)
+    {
         echo 'ERROR: ' . $message . "\n";
     }
 }
