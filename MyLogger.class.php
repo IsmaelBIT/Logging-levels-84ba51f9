@@ -27,7 +27,8 @@ class MyLogger
         echo 'ERROR: ' . $message . "\n";
     }
 
-    public function info($message) {
+    public function info($message)
+    {
         echo 'INFO: ' . $message . "\n";
     }
 
@@ -36,10 +37,10 @@ class MyLogger
         echo 'WARNING: ' . $message . "\n";
     }
 
-    public function debug($message) {
+    public function debug($message)
+    {
         echo 'DEBUG: ' . $message . "\n";
     }
-
 }
 
 
